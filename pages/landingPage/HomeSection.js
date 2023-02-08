@@ -262,7 +262,7 @@ const HomeSection = () => {
         </div> 
 
         <div aria-hidden='true' className='absolute z-3 top-0 bottom-0 lg:right-[74px] right-[43.94px] lg:w-[416px] lg:h-[496px] w-[240.53px] h-[286.78px]'>
-            <Image src='/gymImage2.png' width={416} height={496} alt='photo'></Image>
+            <Image src='/gymImage2.png' width={416} height={496} ></Image>
         </div>
 
         <div className='absolute z-4 lg:left-[116px] lg:top-[19px] left-[89.07px] top-[10px] lg:w-[60px] lg:h-[60px] w-[34.69px] h-[34.69px] rounded-full bg-gradient-to-r from-[#DD69C7] to-[#FFC0F3]
@@ -500,7 +500,7 @@ const HomeSection = () => {
         </div> 
 
         <div aria-hidden='true' className='absolute z-3 top-0 bottom-0 lg:right-[74px] right-[43.94px] lg:w-[416px] lg:h-[496px] w-[240.53px] h-[286.78px]'>
-            <Image src='/gymImage2.png' width={416} height={496} alt='photo'></Image>
+            <Image src='/gymImage2.png' width={416} height={496} ></Image>
         </div>
 
         <div className='absolute z-4 lg:left-[116px] lg:top-[19px] left-[89.07px] top-[10px] lg:w-[60px] lg:h-[60px] w-[34.69px] h-[34.69px] rounded-full bg-gradient-to-r from-[#DD69C7] to-[#FFC0F3]

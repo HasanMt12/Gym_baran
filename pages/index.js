@@ -1,4 +1,4 @@
-import HeroSection from "./landingPage/heroSection"
+import HeroSection from "./landingPage/HeroSection"
 import HomeSection from "./landingPage/HomeSection"
 import Navbar from "./landingPage/Navbar"
 

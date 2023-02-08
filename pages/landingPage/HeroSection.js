@@ -190,7 +190,7 @@ const HeroSection = () => {
                 </svg>
         </div>
         <div aria-hidden='true' className='absolute z-3 lg:right-[80px] right-[48px] lg:w-[358px] lg:h-[580px] w-[206px] h-[340px]'>
-            <Image src='/heroSectionImage.png' width={358} height={580} alt='photo'></Image>
+            <Image src='/heroSectionImage.png' width={358} height={580} ></Image>
         </div>
         <div aria-hidden='true' className='absolute z-4 lg:w-[187px] lg:h-[80px] w-[109px] h-[46px] lg:top-[79px] lg:right-[397px] 
         top-[46.31px] right-[232.72px] bg-white shadow-[#334E7B] lg:rounded-[10px] rounded-[5.86207px] 
