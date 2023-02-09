@@ -4,7 +4,7 @@ const HomeSection = () => {
     return (
         
            
-        <section className="   lg:mt-16 mt-20">
+        <section className="   lg:mt-16 mt-36">
             <div className='lg:h-[146px] lg:w-[1232px] w-[322px] h-[222px] mx-auto'>
                 <div className='grid ml-1 mr-1 mx-auto gird-cols lg:grid-cols-2'>
                     <div className='lg:w-[558px] lg:h-[140px] w-[285px] h-[78px] gap-2'>
@@ -40,7 +40,7 @@ const HomeSection = () => {
                         <div>
                             <h4 className='text-white text-lg font-bold tracking-wide lg:w-[170px] w-[132px] h-[56px]'>Get that 11 line in 30 days</h4>
                             <div className='flex justify-around items-center lg:w-[170px] w-[132px] h-[28px]'>
-                                <h5 className='tracking-wide font-normal text-white opacity-[0.1]'>Learn more</h5>
+                                <h5 className='tracking-wide font-normal text-white opacity-[0.5]'>Learn more</h5>
                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g opacity="0.5">
                             <path d="M2.34375 7.5H12.6562" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -61,9 +61,10 @@ const HomeSection = () => {
 
                         </div>
                         <div>
-                            <h4 className='text-white text-lg font-bold tracking-wide lg:w-[170px] w-[132px] h-[56px]'>Get that 11 line in 30 days</h4>
+                            <h4 className='text-white text-lg font-bold tracking-wide lg:w-[170px] w-[132px] h-[56px]'>14 Days
+sherd challenge</h4>
                             <div className='flex justify-between items-center lg:w-[170px] w-[132px] h-[28px]'>
-                                <h5 className='tracking-wide font-normal text-white opacity-[0.1]'>Learn more</h5>
+                                <h5 className='tracking-wide font-normal text-white opacity-[0.5]'>Learn more</h5>
                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g opacity="0.5">
                             <path d="M2.34375 7.5H12.6562" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -93,13 +94,13 @@ const HomeSection = () => {
 
                         </div>
                         <div>
-                            <h4 className='text-white text-lg font-bold tracking-wide lg:w-[170px] w-[132px] h-[56px]'>Get that 11 line in 30 days</h4>
+                            <h4 className='text-white text-lg font-bold tracking-wide lg:w-[170px] w-[132px] h-[56px]'>Get flat belly in 30 days</h4>
                             <div className='flex justify-between items-center lg:w-[170px] w-[132px] h-[28px]'>
-                                <h5 className='tracking-wide font-normal text-white opacity-[0.1]'>Learn more</h5>
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <h5 className='tracking-wide font-normal text-white opacity-[0.5]'>Learn more</h5>
+                                <svg className="text-[#262524]" width="15" height="15" viewBox="0 0 15 15" fill="#262524" xmlns="http://www.w3.org/2000/svg">
                             <g opacity="0.5">
-                            <path d="M2.34375 7.5H12.6562" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M8.4375 3.28125L12.6562 7.5L8.4375 11.7188" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2.34375 7.5H12.6562" stroke="#262425" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.4375 3.28125L12.6562 7.5L8.4375 11.7188" stroke="#262524" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </g>
                             </svg>
 
@@ -303,7 +304,7 @@ const HomeSection = () => {
         top-[218.56px] left-[0px] bg-white shadow-[#334E7B] lg:rounded-[10px] rounded-[5.86207px] 
         lg:py-[10px] py-[5.86px] flex justify-center items-center gap-3
         '>
-            <div className='lg:w-[60px] lg:h-[60px] w-[34.69px] h-[34.69px] rounded-full bg-gradient-to-r from-[#5478EF] to-[#D6DFFF]
+            <div className='lg:w-[60px] lg:h-[60px] w-[34.69px] shadow-lg shadow-[334E7B] h-[34.69px] rounded-full bg-gradient-to-r from-[#5478EF] to-[#D6DFFF]
                 flex item-center justify-center '>
                 <div className='flex justify-center items-center'>
                     <svg width="27" height="35" viewBox="0 0 27 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -538,7 +539,7 @@ const HomeSection = () => {
 
 
          <div aria-hidden='true' className='absolute z-6 lg:w-[203px] lg:h-[80px] w-[117.37px] h-[46.26px] lg:top-[378px] lg:left-[0px] 
-        top-[218.56px] left-[0px] bg-white shadow-[#334E7B] lg:rounded-[10px] rounded-[5.86207px] 
+        top-[218.56px] left-[0px] bg-white shadow-[#334E7B] shadow-lg lg:rounded-[10px] rounded-[5.86207px] 
         lg:py-[10px] py-[5.86px] flex justify-center items-center gap-3
         '>
             <div className='lg:w-[60px] lg:h-[60px] w-[34.69px] h-[34.69px] rounded-full bg-gradient-to-r from-[#5478EF] to-[#D6DFFF]
