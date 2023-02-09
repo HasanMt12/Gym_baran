@@ -4,11 +4,14 @@ const HeroSection = () => {
     return (
         <div className='lg:mb-16 mb-56'>
         <section className="lg:h-[581px]  lg:w-[1279px] w-[342.34px] h-[340px] mx-auto  relative ">
+        {/* background color -1 */}
             <div className='absolute z-0 top-[-340px] left-[290px] w-[884px] h-[884px]  bg-[#D388FF] blur-[282px]   opacity-[0.2]' ></div>
+        {/* background color-2 */}
             <div  className='absolute z-1 top-[-410px] left-[-93px] w-[884px] h-[884px]  bg-[#F4CDD6] blur-[282px] opacity-[0.1]' ></div>
-             <div  className='absolute z-2 top-[81px] left-[-345px] w-[884px] h-[884px]  bg-[#F3B411] blur-[582px] opacity-[0.1] ' ></div>
-	<div className="grid grid-cols lg:grid-cols-2 w-full  mx-auto  relative">
-		<div className="flex flex-col justify-center  lg:mt-2 mt-10">
+        {/* background color - 3 */}
+        <div  className='absolute z-2 top-[81px] left-[-345px] w-[884px] h-[884px]  bg-[#F3B411] blur-[582px] opacity-[0.1] ' ></div>
+            <div className="grid grid-cols lg:grid-cols-2 w-full  mx-auto  relative">
+            <div className="flex flex-col justify-center  lg:mt-2 mt-10">
             <div className='lg:h-[130px] lg:w-[564px] h-[50px] w-[320px] mt-2 lg:mb-[23px] mb-[16px]'>
                  <h2 className='text-[#262524] tracking-wide lg:text-[56px] text-[28px] font-bold lg:leading-[73px] leading-[26px] '>Healthy in side <span className='text-[#8382EB]'>fresh</span>  out side</h2>
             </div>
@@ -51,10 +54,12 @@ const HeroSection = () => {
 				
 
 			</div>
-		</div>
+		    </div>
 
 		<div className="relative flex items-center  justify-center lg:ml-[127px] ml-[16px] lg:h-[580px] lg:w-[584px] h-[340px] w-[342px]">
-		  <div aria-hidden='true' className='absolute z-0  lg:w-[434px] lg:h-[434px] rounded-full bg-[#E6E5FF]   w-[254px] h-[254px]' ></div>
+		  
+          {/* z index start */}
+          <div aria-hidden='true' className='absolute z-0  lg:w-[434px] lg:h-[434px] rounded-full bg-[#E6E5FF]   w-[254px] h-[254px]' ></div>
           <div aria-hidden='true' className='absolute z-1  lg:w-[434px] lg:h-[434px] w-[230.8px] h-[266.02px] opacity-[0.5] mx-auto  lg:right-[105px] right-[62px]' >
                 <svg  viewBox="0 0 395 455" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.5">
@@ -194,9 +199,9 @@ const HeroSection = () => {
             <Image src='/heroSectionImage.png' width={358} height={580} ></Image>
         </div>
         <div aria-hidden='true' className='absolute z-4 lg:w-[187px] lg:h-[80px] w-[109px] h-[46px] lg:top-[79px] lg:right-[397px] 
-        top-[46.31px] right-[232.72px] bg-white shadow-[#334E7B] lg:rounded-[10px] shadow-lg rounded-[5.86207px] 
-        lg:py-[10px] py-[5.86px] flex justify-center items-center gap-3
-        '>
+            top-[46.31px] right-[232.72px] bg-white shadow-[#334E7B] lg:rounded-[10px] shadow-lg rounded-[5.86207px] 
+            lg:py-[10px] py-[5.86px] flex justify-center items-center gap-3
+            '>
             <div className='lg:w-[60px] lg:h-[60px] w-[35.17px] h-[35.17px] rounded-full bg-gradient-to-r from-[#F8A422] to-[#FEDEAC]
                 flex item-center justify-center '>
                 <div className='flex justify-center items-center'>
@@ -251,17 +256,17 @@ const HeroSection = () => {
             <div className='flex justify-center items-center lg:w-[66px] lg:h-[66px] w-[38.69px] h-[38.69px] lg:mx-[60px] mx-[35px] mt-[10px] lg:mt-[18px] rounded-full bg-[#6765F0] ' >
                 <div className='lg:hidden block flex justify-center items-center '>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1.72003 12.6733L1.7067 12.6866C1.5267 12.2933 1.41337 11.8466 1.3667 11.3533C1.41337 11.8399 1.54003 12.2799 1.72003 12.6733Z" fill="white"/>
-<path d="M6 6.92016C6.87629 6.92016 7.58666 6.20978 7.58666 5.33349C7.58666 4.4572 6.87629 3.74683 6 3.74683C5.1237 3.74683 4.41333 4.4572 4.41333 5.33349C4.41333 6.20978 5.1237 6.92016 6 6.92016Z" fill="white"/>
-<path d="M10.7934 1.33325H5.20671C2.78004 1.33325 1.33337 2.77992 1.33337 5.20658V10.7933C1.33337 11.5199 1.46004 12.1532 1.70671 12.6866C2.28004 13.9532 3.50671 14.6666 5.20671 14.6666H10.7934C13.22 14.6666 14.6667 13.2199 14.6667 10.7933V9.26658V5.20658C14.6667 2.77992 13.22 1.33325 10.7934 1.33325ZM13.58 8.33325C13.06 7.88658 12.22 7.88658 11.7 8.33325L8.92671 10.7132C8.40671 11.1599 7.56671 11.1599 7.04671 10.7132L6.82004 10.5266C6.34671 10.1132 5.59337 10.0732 5.06004 10.4332L2.56671 12.1066C2.42004 11.7332 2.33337 11.2999 2.33337 10.7933V5.20658C2.33337 3.32658 3.32671 2.33325 5.20671 2.33325H10.7934C12.6734 2.33325 13.6667 3.32658 13.6667 5.20658V8.40658L13.58 8.33325Z" fill="white"/>
-</svg>
+                    <path d="M1.72003 12.6733L1.7067 12.6866C1.5267 12.2933 1.41337 11.8466 1.3667 11.3533C1.41337 11.8399 1.54003 12.2799 1.72003 12.6733Z" fill="white"/>
+                    <path d="M6 6.92016C6.87629 6.92016 7.58666 6.20978 7.58666 5.33349C7.58666 4.4572 6.87629 3.74683 6 3.74683C5.1237 3.74683 4.41333 4.4572 4.41333 5.33349C4.41333 6.20978 5.1237 6.92016 6 6.92016Z" fill="white"/>
+                    <path d="M10.7934 1.33325H5.20671C2.78004 1.33325 1.33337 2.77992 1.33337 5.20658V10.7933C1.33337 11.5199 1.46004 12.1532 1.70671 12.6866C2.28004 13.9532 3.50671 14.6666 5.20671 14.6666H10.7934C13.22 14.6666 14.6667 13.2199 14.6667 10.7933V9.26658V5.20658C14.6667 2.77992 13.22 1.33325 10.7934 1.33325ZM13.58 8.33325C13.06 7.88658 12.22 7.88658 11.7 8.33325L8.92671 10.7132C8.40671 11.1599 7.56671 11.1599 7.04671 10.7132L6.82004 10.5266C6.34671 10.1132 5.59337 10.0732 5.06004 10.4332L2.56671 12.1066C2.42004 11.7332 2.33337 11.2999 2.33337 10.7933V5.20658C2.33337 3.32658 3.32671 2.33325 5.20671 2.33325H10.7934C12.6734 2.33325 13.6667 3.32658 13.6667 5.20658V8.40658L13.58 8.33325Z" fill="white"/>
+                    </svg>
 
                 </div>
             </div>
             <h2 className='font-bold text-[#262524] lg:text-[16px] lg:leading-[28px] text-[9.37931px] leading-[16px] tracking-[0.01em] lg:mx-[24px] mx-[14px] mt-[6.45px] lg:mt-[11px]'>Zaqky Simorang</h2>
             <h2 className='font-normal text-[#262524] tracking-[0.01em] lg:text-[12px]  lg:leading-[28px] text-[7.03448px] leading-[16px] opacity-[0.5] lg:mx-[72px] mx-[42.21px] mb-[6.45px] lg:mb-[11px]'>Trainer</h2>
       
-        {/* lg:right-[24px] lg:top-[11px] lg:mr-[60px] lg:mt-[18px] */}
+       
         </div>
         </div>
       
