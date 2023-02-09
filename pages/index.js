@@ -5,11 +5,12 @@ import Navbar from "./landingPage/Navbar"
  function Home() {
   return (
     <div className="m-0 p-0 ">
+      
         
-    <Navbar></Navbar>
-    <HeroSection></HeroSection>
-    <br></br>
-    <HomeSection></HomeSection>
+      <Navbar></Navbar>
+      <HeroSection></HeroSection>
+      <br></br>
+      <HomeSection></HomeSection>
     
     </div>
   )

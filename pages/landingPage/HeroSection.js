@@ -1,4 +1,5 @@
-import Image from "next/Image";
+import Image from "next/image";
+
 const HeroSection = () => {
     return (
         <div className='lg:mb-16 mb-56'>
